@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>ProType - Level1</title>
+
+        <!-- CSS読み込み -->
+        <link rel="stylesheet" href="../Styles/Reset.css">
+        <link rel="stylesheet" href="../Styles/Levels.css">
+    </head>
+
+    <body>
+        <!-- ============================ -->
+        <!-- ↓↓↓単語の定義                 -->
+        <!-- ============================ -->
+        <!-- 6~10文字 -->
+        <div id="Words">
+            Soccer
+            Basketball
+            Baseball
+            Tennis
+            Volleyball
+            Windows
+            Microsoft
+            Twitter
+            Youtube
+            Facebook
+            Instagram
+            Discord
+            Darkweb
+            Shadow
+            Monster
+            Strike
+            OnePiece
+            Minecraft
+            smartphone
+            Naruto
+            DrStone
+            Logicool
+            DragonBall
+            Pikachu
+            Raichu
+            Doraemon
+            Helicopter
+            Paranoia
+            Undertale
+            Deltarone
+            Pokemon
+            Dejimon
+            Yugioh
+            Computer
+            Google
+            Weather
+            Fjodr
+            Rhythm
+            People
+            Genshin
+            Impact
+        </div>
+        <!-- ============================ -->
+        <!-- ↑↑↑単語の定義                 -->
+        <!-- ============================ -->
+
+        <!-- ヘッダー |【タイマー,　次のお題】| -->
+        <header>
+            <div class="Timer">
+                <p id="Timer">入力待ち</p>
+            </div>
+
+            <div class="NextTheme">
+                <p id="NextTheme" class="NextThemeText">NONE</p>
+                <p>次のお題</p>
+            </div>
+        </header>
+
+
+        <!-- メイン |【お題, 入力状況】| -->
+        <main>
+            <p id="Typed" class="TypedText"></p>
+            <p id="NotTyped" class="NotTypedText"></p>
+        </main>
+
+
+        <!-- フッター |【入力数, ミス数】| -->
+        <footer>
+            <div class="Counts">
+                <p id="Count" class="CountText">0</p>
+                <p>入力数</p>
+            </div>
+
+            <div class="Counts">
+                <p id="Miss" class="CountText">0</p>
+                <p>ミス</p>
+            </div>
+        </footer>
+
+
+        <!-- JavaScript読み込み -->
+        <script src="../Scripts/Typing.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*全てに共通するCSS（画面上部の余白を消去するため）*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  min-width: 400px;
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+  display: flex;
+}
+
+/* 画面全体 */
+.TOP {
+  background-image: url(../Assets/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* タイトル */
+.title_name {
+  background: linear-gradient(165deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(200, 200, 200, 0.5) 50%, rgba(200, 200, 200, 0.5) 100%);
+  margin-top: 150px;
+  width: auto;
+  height: 200px;
+  border: 3mm ridge;
+  border-top-color: rgba(0, 0, 255, 0.5);
+  border-left-color: rgba(0, 0, 255, 0.5);
+  border-right-color: rgba(255, 0, 255, 0.5);
+  border-bottom-color: rgba(255, 0, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: auto;
+  font-family: "メイリオ";
+  font-size: 80px;
+}
+
+/* 難易度選択 */
+.choice {
+  margin-top: 150px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.level1, .level2, .level3 {
+  font-size: 45px;
+  width: auto;
+  height: 100px;
+  border: thick double;
+  display: flex;
+  align-items: center;
+}
+
+.level2, .level3 {
+  margin-left: 75px;
+}
+
+.level1 {
+  background: rgba(0, 255, 0, 0.5);
+}
+
+.level2 {
+  background: rgba(255, 255, 0, 0.5);
+}
+
+.level3 {
+  background: rgba(255, 0, 0, 0.5);
+}

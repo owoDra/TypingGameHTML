@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>ProType - Level1</title>
+
+        <!-- CSS読み込み -->
+        <link rel="stylesheet" href="../Styles/Reset.css">
+        <link rel="stylesheet" href="../Styles/Levels.css">
+    </head>
+
+    <body>
+        <!-- ============================ -->
+        <!-- ↓↓↓単語の定義                 -->
+        <!-- ============================ -->
+        <!-- 3~5文字 -->
+        <div id="Words">
+            Apple
+            Eight
+            Five
+            Food
+            Four
+            Hat
+            Love
+            Nine
+            One
+            Seven
+            Six
+            Ten
+            Three
+            Two
+            Red
+            Blue
+            Green
+            Black
+            White
+            Brown
+            Gray
+            Pink
+            Gold
+            Car
+            Train
+            Tank
+            Bike
+            Bus
+            Plane
+            Ship
+            Dog
+            Cat
+            Camel
+            Bird
+            Fish
+            Snake
+            Peace
+            Piece
+            Tokai
+            Music
+            Line
+            Watch
+            Clock
+            Ball
+            Hop
+            Step
+            Jump
+            Class
+            Right
+            Left
+            Oil
+            All
+            Night
+            Chess
+            Desk
+            Top
+            Word
+            Power
+            Point
+            Excel
+            Time
+            Money
+        </div>
+        <!-- ============================ -->
+        <!-- ↑↑↑単語の定義                 -->
+        <!-- ============================ -->
+
+        <!-- ヘッダー |【タイマー,　次のお題】| -->
+        <header>
+            <div class="Timer">
+                <p id="Timer">入力待ち</p>
+            </div>
+
+            <div class="NextTheme">
+                <p id="NextTheme" class="NextThemeText">NONE</p>
+                <p>次のお題</p>
+            </div>
+        </header>
+
+
+        <!-- メイン |【お題, 入力状況】| -->
+        <main>
+            <p id="Typed" class="TypedText"></p>
+            <p id="NotTyped" class="NotTypedText"></p>
+        </main>
+
+
+        <!-- フッター |【入力数, ミス数】| -->
+        <footer>
+            <div class="Counts">
+                <p id="Count" class="CountText">0</p>
+                <p>入力数</p>
+            </div>
+
+            <div class="Counts">
+                <p id="Miss" class="CountText">0</p>
+                <p>ミス</p>
+            </div>
+        </footer>
+
+
+        <!-- JavaScript読み込み -->
+        <script src="../Scripts/Typing.js"></script>
+
+    </body>
+</html>
